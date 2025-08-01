@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هادی یوسفی | خدمات تخصصی تاسیسات و فنی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="bg-blue-600 text-white p-2 rounded-lg mr-3" style="margin-left: 15px">
+                    <i class="fas fa-tools text-2xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-800">هادی یوسفی</h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8 space-x-reverse">
+                <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 font-medium">صفحه اصلی</a>
+                <a href="#services" class="nav-link text-gray-700 hover:text-blue-600 font-medium">خدمات</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 font-medium">درباره من</a>
+                <a href="#projects" class="nav-link text-gray-700 hover:text-blue-600 font-medium">پروژه‌ها</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 font-medium">تماس</a>
+            </nav>
+            
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-700 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4 shadow-lg">
+            <a href="#home" class="block py-2 text-gray-700 hover:text-blue-600">صفحه اصلی</a>
+            <a href="#services" class="block py-2 text-gray-700 hover:text-blue-600">خدمات</a>
+            <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600">درباره من</a>
+            <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600">پروژه‌ها</a>
+            <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">تماس</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white py-20">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">خدمات تخصصی تاسیسات و فنی</h1>
+                <p class="text-xl mb-8 leading-relaxed">با بیش از 25 سال تجربه در زمینه برق، تاسیسات، موتورخانه و سیستم‌های سرمایشی و گرمایشی</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition duration-300">درخواست خدمات</a>
+                    <a href="#services" class="border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition duration-300">مشاهده خدمات</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="img/S2 (1).png" alt="تاسیسات حرفه‌ای" class="rounded-lg shadow-2xl max-w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">خدمات تخصصی</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="bg-blue-600 p-4 text-white">
+                        <i class="fas fa-bolt text-3xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">برق و الکتریک</h3>
+                        <p class="text-gray-600 mb-4">نصب و تعمیرات سیستم‌های برق ساختمان، تابلوهای برق، سیم‌کشی حرفه‌ای، رفع مشکلات الکتریکی</p>
+                        <ul class="text-gray-600 space-y-2">
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> سیم‌کشی استاندارد</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> تعمیرات تخصصی</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> نصب سیستم‌های هوشمند</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="bg-blue-600 p-4 text-white">
+                        <i class="fas fa-fire-extinguisher text-3xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">تاسیسات ساختمان</h3>
+                        <p class="text-gray-600 mb-4">طراحی، نصب و تعمیر سیستم‌های لوله‌کشی آب و فاضلاب، شوفاژ، رادیاتور و سیستم‌های گرمایشی</p>
+                        <ul class="text-gray-600 space-y-2">
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> لوله‌کشی حرفه‌ای</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> تعمیرات شوفاژ</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> نصب رادیاتور</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="bg-blue-600 p-4 text-white">
+                        <i class="fas fa-cogs text-3xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">موتورخانه</h3>
+                        <p class="text-gray-600 mb-4">طراحی، نصب و سرویس موتورخانه‌های مرکزی، تعمیرات دیگ‌های بخار و آبگرمکن‌های صنعتی</p>
+                        <ul class="text-gray-600 space-y-2">
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> سرویس دوره‌ای</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> تعمیرات تخصصی</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> بهینه‌سازی مصرف</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="bg-blue-600 p-4 text-white">
+                        <i class="fas fa-snowflake text-3xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">کولر و اسپیلت</h3>
+                        <p class="text-gray-600 mb-4">نصب، سرویس و تعمیر انواع کولرهای آبی و گازی، اسپیلت‌های دیواری و سقفی، سیستم‌های VRF</p>
+                        <ul class="text-gray-600 space-y-2">
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> شارژ گاز</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> تعمیرات تخصصی</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> سرویس فصلی</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="bg-blue-600 p-4 text-white">
+                        <i class="fas fa-wrench text-3xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">تعمیرات فنی</h3>
+                        <p class="text-gray-600 mb-4">تعمیرات تخصصی لوازم خانگی و صنعتی، عیب‌یابی و رفع مشکلات فنی سیستم‌های مختلف</p>
+                        <ul class="text-gray-600 space-y-2">
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> عیب‌یابی دقیق</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> تعمیرات اصولی</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> گارانتی خدمات</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="bg-blue-600 p-4 text-white">
+                        <i class="fas fa-lightbulb text-3xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">مشاوره فنی</h3>
+                        <p class="text-gray-600 mb-4">مشاوره تخصصی برای انتخاب بهترین سیستم‌های سرمایشی و گرمایشی متناسب با نیاز و بودجه شما</p>
+                        <ul class="text-gray-600 space-y-2">
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> انتخاب بهینه</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> محاسبات فنی</li>
+                            <li class="flex items-center"><i class="fas fa-check text-blue-500 ml-2"></i> صرفه‌جویی انرژی</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10" style="margin-left: 10px">
+                <img src="img/1.avif" alt="هادی یوسفی" class="rounded-lg shadow-lg w-full">
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">هادی یوسفی</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">با بیش از 25 سال سابقه درخشان در زمینه تاسیسات و خدمات فنی، هادی یوسفی یکی از متخصصین برجسته در حوزه برق، تاسیسات ساختمان، موتورخانه و سیستم‌های سرمایشی و گرمایشی می‌باشد.</p>
+                
+                <div class="mb-6">
+                  <h3 class="text-xl font-bold text-gray-800 mb-3">مهارت‌های تخصصی</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">برق و الکتریک</span>
+                                <span class="text-blue-600">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">تاسیسات ساختمان</span>
+                                <span class="text-blue-600">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">موتورخانه</span>
+                                <span class="text-blue-600">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">کولر و اسپیلت</span>
+                                <span class="text-blue-600">92%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-wrap gap-4">
+                    <div class="bg-white p-4 rounded-lg shadow-sm flex items-center">
+                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-3" style="margin-left: 10px">
+                            <i class="fas fa-award text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">25+ سال</h4>
+                            <p class="text-gray-600 text-sm">تجربه کاری</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm flex items-center">
+                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-3" style="margin-left: 10px">
+                            <i class="fas fa-project-diagram text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">500+</h4>
+                            <p class="text-gray-600 text-sm">پروژه موفق</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-sm flex items-center">
+                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-3" style="margin-left: 10px">
+                            <i class="fas fa-smile text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">98%</h4>
+                            <p class="text-gray-600 text-sm">رضایت مشتریان</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">پروژه‌های اخیر</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="img/S1 (1).png" alt="پروژه تاسیسات ساختمان" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">تاسیسات ساختمان مسکونی</h3>
+                        <p class="text-gray-600 mb-4">طراحی و اجرای کامل سیستم تاسیسات ساختمان 5 طبقه در تهران</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-map-marker-alt ml-1"></i>
+                            <span>شیراز، منطقه 3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="img/S1 (2).png" alt="پروژه موتورخانه" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">بهینه‌سازی موتورخانه مرکزی</h3>
+                        <p class="text-gray-600 mb-4">تعمیر و بهینه‌سازی موتورخانه ساختمان اداری 10 طبقه</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-map-marker-alt ml-1"></i>
+                            <span>شیراز، بلوار رحمت</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="img/S1 (3).png" alt="پروژه سیستم سرمایشی" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">نصب سیستم سرمایش مرکزی</h3>
+                        <p class="text-gray-600 mb-4">طراحی و اجرای سیستم سرمایش VRF برای مجتمع تجاری</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-map-marker-alt ml-1"></i>
+                            <span>شیراز ، معالی آباد</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-10">
+                <a href="#contact" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition duration-300">مشاهده پروژه‌های بیشتر</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">نظرات مشتریان</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div class="mr-3">
+                            <h4 class="font-bold text-gray-800">محمد رضایی</h4>
+                            <p class="text-gray-600 text-sm">مدیر ساختمان</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"خدمات آقای یوسفی در زمینه تعمیرات موتورخانه ساختمان ما بسیار حرفه‌ای و دقیق بود. پس از سال‌ها مشکل در سیستم گرمایشی، بالاخره با کار ایشان مشکل به طور کامل رفع شد."</p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div class="mr-3">
+                            <h4 class="font-bold text-gray-800">فاطمه محمدی</h4>
+                            <p class="text-gray-600 text-sm">مالک آپارتمان</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"نصب سیستم اسپیلت توسط آقای یوسفی بسیار تمیز و حرفه‌ای انجام شد. نظافت کار و دقت ایشان در انجام کار واقعاً قابل تقدیر است. حتماً برای کارهای بعدی هم از خدمات ایشان استفاده خواهم کرد."</p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full">
+                            <i class="fas fa-user text-xl"></i>
+                        </div>
+                        <div class="mr-3">
+                            <h4 class="font-bold text-gray-800">علی حسینی</h4>
+                            <p class="text-gray-600 text-sm">مدیر شرکت</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"برای پروژه تاسیسات ساختمان اداری ما چندین متخصص را بررسی کردیم و در نهایت آقای یوسفی را انتخاب کردیم. انتخاب بسیار درستی بود. کار با دقت و در زمان تعیین شده تحویل داده شد."</p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">تماس با ما</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">نام و نام خانوادگی</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">ایمیل</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">شماره تماس</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="service" class="block text-gray-700 font-medium mb-2">نوع خدمت مورد نیاز</label>
+                            <select id="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option value="">-- انتخاب کنید --</option>
+                                <option value="electric">برق و الکتریک</option>
+                                <option value="plumbing">تاسیسات ساختمان</option>
+                                <option value="boiler">موتورخانه</option>
+                                <option value="ac">کولر و اسپیلت</option>
+                                <option value="other">سایر خدمات فنی</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 font-medium mb-2">پیام شما</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition duration-300">ارسال درخواست</button>
+                    </form>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-sm h-full">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">اطلاعات تماس</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4" style="margin-left: 10px">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">آدرس</h4>
+                                    <p class="text-gray-600">شیراز، بلور رحمت&nbsp;</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4" style="margin-left: 10px">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">تلفن</h4>
+                                    <p class="text-gray-600">0917-708-0702</p>
+                                    <p class="text-gray-600">0917-591-3293</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4" style="margin-left: 10px">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">ایمیل</h4>
+                                    <p class="text-gray-600">hadi.yousefi@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4" style="margin-left: 10px">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">ساعات کاری</h4>
+                                    <p class="text-gray-600">شنبه تا چهارشنبه: 8 صبح تا 6 عصر</p>
+                                    <p class="text-gray-600">پنجشنبه: 8 صبح تا 2 بعدازظهر</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold text-gray-800 mb-4">ما را در شبکه‌های اجتماعی دنبال کنید</h4>
+                            <div class="flex space-x-4 space-x-reverse">
+                                <a href="#" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition duration-300">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition duration-300">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                                <a href="#" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition duration-300">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">سوالات متداول</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="max-w-3xl mx-auto space-y-4">
+                <!-- FAQ 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 focus:outline-none">
+                        <h3 class="text-lg font-bold text-gray-800 text-right">هزینه خدمات شما چگونه محاسبه می‌شود؟</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 pt-0">
+                        <p class="text-gray-600">هزینه خدمات بر اساس نوع خدمت، زمان مورد نیاز و مواد مصرفی محاسبه می‌شود. پس از بازدید اولیه و بررسی دقیق نیازهای شما، قیمت نهایی اعلام خواهد شد. ما همیشه سعی می‌کنیم قیمت‌های منصفانه و رقابتی ارائه دهیم.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 focus:outline-none">
+                        <h3 class="text-lg font-bold text-gray-800 text-right">آیا خدمات شما گارانتی دارد؟</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 pt-0">
+                        <p class="text-gray-600">بله، تمام خدمات ما دارای گارانتی می‌باشد. مدت گارانتی بسته به نوع خدمت از 3 ماه تا 1 سال متغیر است. جزئیات گارانتی پس از انجام کار به صورت مکتوب به شما ارائه خواهد شد.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 focus:outline-none">
+                        <h3 class="text-lg font-bold text-gray-800 text-right">چقدر زمان نیاز دارید تا به درخواست من رسیدگی کنید؟</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 pt-0">
+                        <p class="text-gray-600">برای خدمات اضطراری معمولاً در همان روز رسیدگی می‌کنیم. برای خدمات غیراضطراری، زمانبندی بر اساس اولویت درخواست‌ها انجام می‌شود و معمولاً ظرف 24 تا 48 ساعت به شما پاسخ داده خواهد شد.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 focus:outline-none">
+                        <h3 class="text-lg font-bold text-gray-800 text-right">آیا مواد و قطعات مورد نیاز را شما تهیه می‌کنید؟</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 pt-0">
+                        <p class="text-gray-600">بله، ما می‌توانیم تمام مواد و قطعات مورد نیاز را با کیفیت مناسب و قیمت منصفانه تهیه کنیم. البته اگر شما ترجیح دهید خودتان مواد را تهیه کنید، ما فقط هزینه خدمات فنی را دریافت خواهیم کرد.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 text-white p-2 rounded-lg mr-3" style="margin-left: 10px">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">هادی یوسفی</h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">ارائه خدمات تخصصی در زمینه برق، تاسیسات، موتورخانه و سیستم‌های سرمایشی و گرمایشی با بالاترین کیفیت و استانداردها</p>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-telegram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">خدمات ما</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">برق و الکتریک</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">تاسیسات ساختمان</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">موتورخانه</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">کولر و اسپیلت</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">تعمیرات فنی</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">لینک‌های مفید</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">صفحه اصلی</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">خدمات</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">درباره من</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-white transition duration-300">پروژه‌ها</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">تماس</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">خبرنامه</h4>
+                    <p class="text-gray-400 mb-4">برای دریافت جدیدترین تخفیف‌ها و پیشنهادهای ویژه در خبرنامه ما عضو شوید</p>
+                    <form class="flex">
+                        <input type="email" placeholder="ایمیل شما" class="px-4 py-2 rounded-r-lg focus:outline-none text-gray-800 w-full">
+                        <button type="submit" class="bg-blue-600 px-4 py-2 rounded-l-lg hover:bg-blue-700 transition duration-300">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 تمام حقوق برای هادی یوسفی محفوظ است.</p>
+                <div class="flex space-x-6 space-x-reverse">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition duration-300">قوانین و مقررات</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition duration-300">حریم خصوصی</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // FAQ Accordion
+        const faqBtns = document.querySelectorAll('.faq-btn');
+        
+        faqBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const faqContent = btn.nextElementSibling;
+                const icon = btn.querySelector('i');
+                
+                // Toggle content
+                faqContent.classList.toggle('hidden');
+                
+                // Rotate icon
+                icon.classList.toggle('transform');
+                icon.classList.toggle('rotate-180');
+                
+                // Close other open FAQs
+                faqBtns.forEach(otherBtn => {
+                    if (otherBtn !== btn) {
+                        otherBtn.nextElementSibling.classList.add('hidden');
+                        otherBtn.querySelector('i').classList.remove('transform', 'rotate-180');
+                    }
+                });
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
